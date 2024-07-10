@@ -7,3 +7,6 @@ chamado 'test_calculadora.py'
 3) Executando o arquivo de
 testes unitários
 - Comando no Terminal: python test_calculadora.py
+
+OBS: não esquecer de subir
+as alterações para o Github
