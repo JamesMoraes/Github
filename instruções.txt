@@ -1,39 +1,9 @@
-1) Transformar a aplicação web
-para desktop
+1) Criar o arquivo a ser testado
+chamado 'calculadora.py'
 
-a) Instalar o pacote 'pywebview' e 'mysqlclient'
-- Comando no Terminal: pip install pywebview mysqlclient
+2) Criar o arquivo de testes
+chamado 'test_calculadora.py'
 
-b) Criar o arquivo 'app_desktop.py'
-na pasta raiz do projeto
-- Copiar todo o código do arquivo 'app.py'
-para 'app_desktop.py'
-
-c) Seguir as instruções dos comentários
-do arquivo 'app_desktop.py'
-
-d) Executando o arquivo 'app_desktop.py'
-- Comando no Terminal: python app_desktop.py
-
-e) Gerando um arquivo executável
-
-- Instalar o pacote 'cx_Freeze' com o
-comando no Terminal: pip install cx_Freeze
-
-- Para gerar o arquivo executável, digitar
-o comando no Terminal: cxfreeze app_desktop.py --target-dir dist
-
-
-
-
-
-
-2) Transformar a aplicação em um PWA
-(Progressive Web Aplication)
-
-a) Criando a pasta 'static' na pasta
-raiz do projeto
-
-b) Criando os arquivos 'manifest.json'
-e 'service-worker.js' dentro da pasta
-'static'
+3) Executando o arquivo de
+testes unitários
+- Comando no Terminal: python test_calculadora.py
