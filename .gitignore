@@ -1,0 +1,5 @@
+# Ignorando o arquivo 'package.json'
+package.json
+
+# Ignorando a pasta 'node
+node/*
